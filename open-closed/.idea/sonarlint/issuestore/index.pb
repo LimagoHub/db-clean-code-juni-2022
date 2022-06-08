@@ -11,14 +11,10 @@ W
 'src/de/dictonary/DictionaryMemento.java,6\5\65c447c8668ba4681cd1df4aaaa872b60162197b
 U
 %src/de/commands/TranslateCommand.java,7\4\740e11ba0471e3d34d0645fc83f8738e1477ec24
-O
-src/de/commands/AddCommand.java,f\7\f7e395ca2ade65103a96379ce71a571dce83ca07
 E
 src/de/main/Main.java,9\5\95108640daf5c85dd1038b92f20f21f2ba7b900b
 T
 $src/de/commands/AbstractCommand.java,1\c\1caced7652c3491161a84f7aa1bb37e42652574b
-P
- src/de/commands/MultCommand.java,9\3\935c6b358c34b1eaf98e3328aa38ed1a6e21dd4d
 P
  src/de/commands/ListCommand.java,5\f\5f48731e34f020788fefaede05a513884c338c69
 R
@@ -29,7 +25,11 @@ R
 "src/de/math/CalculatorMemento.java,5\f\5f0bb33270d9836d6ffc001333cdfcff222bd8c6
 K
 src/de/math/Calculator.java,e\8\e8db25f89915a58117bda14178d1f7ca0e214d05
-S
-#src/de/commands/CommandFactory.java,9\3\938a6f889aba483b3a777652ed8e50670b0260e3
+O
+src/de/commands/AddCommand.java,f\7\f7e395ca2ade65103a96379ce71a571dce83ca07
 O
 src/de/commands/SubCommand.java,c\2\c2bfb8b9e2ce5e88bf0855a1c7010a17f2bd1d64
+P
+ src/de/commands/MultCommand.java,9\3\935c6b358c34b1eaf98e3328aa38ed1a6e21dd4d
+S
+#src/de/commands/CommandFactory.java,9\3\938a6f889aba483b3a777652ed8e50670b0260e3
