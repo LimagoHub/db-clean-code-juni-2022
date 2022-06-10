@@ -3,6 +3,10 @@ package field.inner;
 import field.FieldGenerator;
 import number.NumberGenerator;
 
+
+import segments.Segment;
+
+
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
@@ -54,7 +58,7 @@ public class FieldGeneratorThreadedStrategy extends AbstractFieldGenerator imple
     }
 
     private void startSingleWorker() {
-        Segment segmentToFill = new Segment(currentThreadNumber, segmentSize);
+        Segment segmentToFill = new Segment(currentThreadNumber*segmentSize, segmentSize);
         //service.execute(new FillSegmentWorker(segmentToFill));
         service.execute(new FillSegmentWorker(segmentToFill));
     }
@@ -82,26 +86,5 @@ public class FieldGeneratorThreadedStrategy extends AbstractFieldGenerator imple
         }
     }
 
-    private static class Segment {
-        private final int startIndex;
-        private final int segmentSize;
 
-        public Segment(final int currentThreadNumber, final int segmentSize) {
-            this.startIndex = currentThreadNumber * segmentSize;
-            this.segmentSize = segmentSize;
-
-        }
-
-        public int getStartIndex() {
-            return startIndex;
-        }
-
-        public int getEndeIndex() {
-            return startIndex + segmentSize;
-        }
-
-        public int getSegmentSize() {
-            return segmentSize;
-        }
-    }
 }
