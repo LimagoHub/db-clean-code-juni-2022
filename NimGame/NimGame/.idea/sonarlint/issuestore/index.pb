@@ -1,0 +1,27 @@
+
+O
+src/de/db/io/ConsoleWriter.java,b\e\be39dc0df46cfbf5a3478c3f8fe047bca5c93249
+I
+src/de/db/games/Game.java,3\6\3608f045f47d3ce8e492e306634de86cd81dc723
+[
++src/de/db/games/players/AbstractPlayer.java,3\8\38df9f6b0730d4c971867833af4b3969600d12b4
+Y
+)src/de/db/games/nim/player/OmaPlayer.java,9\8\98fba8e2b814a02ca7a5384bfa1613053d08b379
+P
+ src/de/db/client/GameClient.java,3\0\304c3802493d612f75059ce1b1ff47d9ef2ec23b
+H
+src/de/db/io/Writer.java,c\6\c6a901ab477836d534939c7913d0677882ed60d7
+^
+.src/de/db/games/nim/player/ComputerPlayer.java,3\7\37b2d54b78b9ee14c443856dbff48ed0d40ad7c4
+[
++src/de/db/games/AbstractRoundBasedGame.java,0\3\036a15e4a241fbf9ccf325d2bc6397fb5e505886
+O
+src/de/db/application/Main.java,1\3\1390f64dee39c66930cb85dd1b919a69902c1bef
+S
+#src/de/db/games/players/Player.java,5\b\5b88af0d7c5cbdcd0c0275457e88e1f41b208457
+T
+$src/de/db/games/nim/NimGameImpl.java,5\4\5448e6b2713178ff82abb79b344988780e30e93c
+e
+5src/de/db/games/nim/player/AbstractNimGamePlayer.java,8\a\8a0962d488586e5f467d2eb2887538d6a1abaa1e
+[
++src/de/db/games/nim/player/HumanPlayer.java,3\7\3728997e954f4242fde02943d85bb3f69bf0dd17

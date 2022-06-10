@@ -1,6 +1,6 @@
 package de.db.client;
 
-import de.db.spiele.Game;
+import de.db.games.Game;
 
 public class GameClient {
 
